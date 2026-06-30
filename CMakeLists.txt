@@ -34,7 +34,8 @@ endif()
 
 set(SOURCES
     src/main.cpp
+    
 )
 
 add_executable(VISUAL_CamPROG_Proto ${SOURCES})
-target_link_libraries(VISUAL_CamPROG_Proto ${SOURCES})
+target_link_libraries(VISUAL_CamPROG_Proto LxCameraApi LxDataProcess ${PLATFORM_LIBS})
