@@ -34,7 +34,7 @@ endif()
 
 set(SOURCES
     src/main.cpp
-    
+      
 )
 
 add_executable(VISUAL_CamPROG_Proto ${SOURCES})
