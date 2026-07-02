@@ -1,1 +1,4 @@
 test/C/build
+build/
+log/
+*.log

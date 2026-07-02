@@ -4,7 +4,7 @@
 #include "sdk_api.h"
 
 const char *self_ip = "192.168.100.82";
-#define SN "";
+#define SN ""
 
 
 
