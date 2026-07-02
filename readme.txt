@@ -18,7 +18,7 @@ Install OpenCV
     ll | grep lanxin
 
 Step 1 : CMake
-    cmake -S . -B build
+    cmake -S . -B build 
     cmake --build build
     LD_LIBRARY_PATH=CameraSDK/linux/SDK/lib/linux_x64 ./build/bin/VISUAL_CamPROG_Proto
 
